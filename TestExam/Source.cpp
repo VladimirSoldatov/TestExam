@@ -44,7 +44,6 @@ public:
 				int a = gen(rnd);
 				line.push_back(Cell(i, j, a));
 			}
-
 			myMap.push_back(line);
 			line.clear();
 		}
